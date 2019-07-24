@@ -1,0 +1,35 @@
+{
+  "name": "TypeScript",
+  "version": "1.0.0",
+  "description": "npm init -y",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guaiguaiAccount/TypeScript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "hewenbang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guaiguaiAccount/TypeScript/issues"
+  },
+  "homepage": "https://github.com/guaiguaiAccount/TypeScript#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {}
+}
