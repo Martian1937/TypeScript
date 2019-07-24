@@ -1,4 +1,4 @@
-npm init -y
-npm i typescript tslint -g
-tsc --init
+* npm init -y
+* npm i typescript tslint -g
+* tsc --init
 
